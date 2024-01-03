@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import { Raleway, Bebas_Neue } from "next/font/google";
 import './globals.css'
 
-export const bebas = Bebas_Neue({
+const bebas = Bebas_Neue({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-bebas",
 });
 
-export const raleway = Raleway({
+const raleway = Raleway({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
   variable: "--font-raleway",
