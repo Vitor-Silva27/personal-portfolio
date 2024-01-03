@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${bebas.variable} ${raleway.variable} bg-slate-100 text-zinc-950`}>{children}</body>
+      <body className={`${bebas.variable} ${raleway.variable} bg-slate-100 text-zinc-950 font-body relative`}>{children}</body>
     </html>
   )
 }

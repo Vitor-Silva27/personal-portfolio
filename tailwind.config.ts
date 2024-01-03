@@ -12,6 +12,9 @@ const config: Config = {
         display: ["var(--font-bebas)"],
         body: ["var(--font-raleway)"],
       },
+      fontSize: {
+        "10xl": "18rem",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
