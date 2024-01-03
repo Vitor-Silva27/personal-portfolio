@@ -23,16 +23,6 @@ export const FollowCursor = () => {
     };
   }, []);
 
-  const style = {
-    transform: 'translate(-50%, -50%)',
-    width: '60px',
-    height: '60px',
-    borderRadius: '50%',
-    backgroundColor: '#FFDD00',
-    opacity: 1,
-    zIndex: -1,
-  };
-
   const variants = {
     default: {
       x: mousePosition.x - 30,
@@ -42,8 +32,7 @@ export const FollowCursor = () => {
 
   return (
     <motion.div
-      className={`fixed top-0 left-0`}
-      style={style}
+      className="hidden fixed lg:block top-0 left-0 w-16 h-16 rounded-full bg-yellow-400 -z-10 -translate-x-2/4 -translate-y-2/4"
       variants={variants}
       animate="default"
       transition={{
@@ -67,6 +56,14 @@ export const FollowCursor = () => {
           duration: 1,
           repeat: Infinity,
         },
+        width: {
+          duration: 0.3,
+          ease: 'linear',
+          repeat: 0,
+          type: 'spring',
+          stiffness: 400,
+          damping: 20,
+        }
       }}
     ></motion.div>
   );

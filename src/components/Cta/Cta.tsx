@@ -8,37 +8,13 @@ interface CtaProps {
     icon: string;
 }
 
-export const Cta = ({link, text, icon}: CtaProps) => {
-    const ref = useRef<HTMLDivElement>(null);
-
-    const [position, setPosition] = useState({x:0,y:0});
-    
-    const handleMouse = (e: any) => {
-        const { clientX, clientY } = e;
-        const rect = ref.current?.getBoundingClientRect();
-        if (rect) {
-            const { height, width, left, top } = rect;
-            const middleX = clientX - (left + width / 2);
-            const middleY = clientY - (top + height / 2);
-            setPosition({ x: middleX, y: middleY });
-        }
-    };
-
-    const reset = () => {
-        setPosition({x:0, y:0})
-    }
-    const { x, y } = position;
-    
+export const Cta = ({link, text, icon}: CtaProps) => {    
   return (
-    <Link href={link}>
+    <Link href={link} className="w-full min-w-72">
     <motion.div
-      className="flex justify-center items-center gap-12 p-4 bg-zinc-950 w-full min-w-72 h-20 hover:bg-yellow-400 text-zinc-100 hover:text-zinc-950 hover:font-bold"
+      className="flex justify-center items-center gap-12 p-4 bg-zinc-950 h-20 hover:bg-yellow-400 text-zinc-100 hover:text-zinc-950 hover:font-bold"
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.8 }}
-      ref={ref}
-      onMouseMove={handleMouse}
-      onMouseLeave={reset}
-      animate={{x, y}}
       transition={{ type: "spring", stiffness: 300, damping: 50, mass: 0.5 }}>
             <p className="text-xl">{text}</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="25" viewBox="0 0 21 25" fill="none">
