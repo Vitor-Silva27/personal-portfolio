@@ -1,4 +1,5 @@
 import { Header, HeroSection } from '@/components'
+import { FollowCursor } from '@/components/FollowCursor/FollowCursor'
 import Image from 'next/image'
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         <Header.Nav />
       </Header.Root>
       <HeroSection />
+      <FollowCursor />
     </>
   )
 }
