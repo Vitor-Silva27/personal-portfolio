@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`${bebas.variable} ${raleway.variable} bg-slate-100 text-zinc-950 font-body relative`}>{children}</body>
     </html>
   )
