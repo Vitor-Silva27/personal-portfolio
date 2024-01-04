@@ -1,4 +1,4 @@
-import { AboutSection, Header, HeroSection, FollowCursor } from '@/components';
+import { AboutSection, Header, HeroSection, FollowCursor, SkillsSection } from '@/components';
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       </Header.Root>
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
     </>
   )
 }

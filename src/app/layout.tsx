@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${bebas.variable} ${raleway.variable} bg-slate-100 text-zinc-950 font-body relative`}>{children}</body>
+      <body className={`${bebas.variable} ${raleway.variable} bg-slate-100 text-zinc-950 font-body relative overflow-x-hidden`}>{children}</body>
     </html>
   )
 }
