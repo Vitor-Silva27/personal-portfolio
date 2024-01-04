@@ -25,14 +25,14 @@ export const FollowCursor = () => {
 
   const variants = {
     default: {
-      x: mousePosition.x - 40,
-      y: mousePosition.y - 40,
+      x: mousePosition.x - 24,
+      y: mousePosition.y - 24,
     },
   };
 
   return (
     <motion.div
-      className="hidden fixed lg:block top-0 left-0 w-20 h-20 rounded-full bg-yellow-400 -z-10 -translate-x-2/4 -translate-y-2/4"
+      className="hidden fixed lg:block top-0 left-0 w-12 h-12 rounded-full bg-yellow-400 -z-10 -translate-x-2/4 -translate-y-2/4"
       variants={variants}
       animate="default"
       transition={{
@@ -56,14 +56,6 @@ export const FollowCursor = () => {
           duration: 1,
           repeat: Infinity,
         },
-        width: {
-          duration: 0.3,
-          ease: 'linear',
-          repeat: 0,
-          type: 'spring',
-          stiffness: 400,
-          damping: 20,
-        }
       }}
     ></motion.div>
   );
