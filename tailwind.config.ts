@@ -15,6 +15,10 @@ const config: Config = {
       fontSize: {
         "10xl": "18rem",
       },
+      screens: {
+        sxl: "1338px",
+        "3xl": "1630px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

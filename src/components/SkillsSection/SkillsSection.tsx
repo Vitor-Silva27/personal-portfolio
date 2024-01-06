@@ -8,9 +8,12 @@ export const SkillsSection = () => {
   const x2 = useTransform(scrollYProgress, [0, 1], [0, -800]);
 
   return (
-    <section id='skills' className='flex flex-col items-center font-display relative py-32 sm:py-64 mb-96 overflow-x-hidden'>
+    <section id='skills' className='flex flex-col items-center font-display relative py-32 sm:py-96 overflow-x-hidden'>
       <h2 className="text-9xl md:text-10xl absolute text-slate-200 top-0 -z-20">Skills</h2>
-      <motion.ul className="flex gap-4 text-5xl 2xl:text-7xl text-nowrap  relative -right-1/4" style={{x: x2}}>
+      <motion.ul 
+        className="flex gap-4 text-5xl 2xl:text-7xl text-nowrap  relative -right-1/4"
+        style={{x: x2}}
+      >
         <li>Html</li>
         <li>Css</li>
         <li>Javascript</li>

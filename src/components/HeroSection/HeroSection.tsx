@@ -10,7 +10,7 @@ export const HeroSection = () => {
     </h1>
     <p className="my-6 sm:w-1/2 sm:text-center text-zinc-700 lg:text-xl 2xl:text-2xl">I am a <strong>Full stack developer</strong>. Currently working with <strong>javascript</strong>, using mostly <strong>React.js</strong> and <strong>Node.js</strong>.</p>
     <div className="flex flex-col gap-5 mt-10 justify-center items-center">
-      <Cta link="#contact" text="Get in touch" icon="/send-message.svg"/>
+      <Cta link="#contact" text="Get in touch"/>
      <Socials />
     </div>
   </section>
