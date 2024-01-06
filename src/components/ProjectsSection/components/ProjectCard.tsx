@@ -7,7 +7,7 @@ interface IProjectCardProps {
 
 export const ProjectCard = ({project}: IProjectCardProps) => {
   return (
-    <div className={"flex flex-col xl:flex-row gap-20 items-center 3xl:gap-40" + (project.backward ? " flex-row-reverse" : "")}>
+    <div className={"flex flex-col xl:flex-row gap-20 items-center 3xl:gap-40" + (project.backward ? " xl:flex-row-reverse" : "")}>
       <div className="flex items-center justify-center w-full xl:w-1/2" style={{backgroundColor: project.color}}>
         <Image className="object-cover h-96 xl:h-full" src={project.image} alt={project.name} width={688} height={848} />
       </div>
@@ -25,8 +25,9 @@ export const ProjectCard = ({project}: IProjectCardProps) => {
             ))}
           </ul>
           <div className="flex flex-col gap-8 mt-16 lg:w-3/4 lg:flex-row">
-            <Cta text="View Live Project" link={"#"} />
-            <Cta text="View Code" link={project.githubLink} secondary/>
+            {project.liveLink && <Cta text="View Live Project" link={"#"} />}
+            {project.githubLink && <Cta text="View Source Code" link={project.githubLink} secondary/>}
+            {!project.githubLink && !project.liveLink && <p className="text-zinc-600 text-base sm:text-xl">Links are not available! {project.reason}</p>}
           </div>
       </div>
 

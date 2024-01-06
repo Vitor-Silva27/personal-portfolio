@@ -4,8 +4,9 @@ interface IProject {
   roles: string[];
   description: string[];
   techs: string[];
-  liveLink: string;
-  githubLink: string;
+  liveLink?: string;
+  githubLink?: string;
   backward?: boolean;
   color: string;
+  reason?: string;
 }
