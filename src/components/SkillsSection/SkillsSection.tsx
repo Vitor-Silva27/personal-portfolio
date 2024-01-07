@@ -42,6 +42,7 @@ export const SkillsSection = () => {
         <li>prisma.io</li>
         <li>java</li>
         <li>Rest</li>
+        <li>Git</li>
         <li>docker</li>
         <li>jest</li>
         <li>Node.js</li>
@@ -51,6 +52,7 @@ export const SkillsSection = () => {
         <li>prisma.io</li>
         <li>java</li>
         <li>Rest</li>
+        <li>Git</li>
         <li>docker</li>
         <li>jest</li>
       </motion.ul>

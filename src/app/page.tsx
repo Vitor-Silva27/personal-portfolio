@@ -1,4 +1,4 @@
-import { AboutSection, Header, HeroSection, FollowCursor, SkillsSection, BackToTop } from '@/components';
+import { AboutSection, Header, HeroSection, FollowCursor, SkillsSection, BackToTop, ContactSection } from '@/components';
 import { ProjectsSection } from '@/components/ProjectsSection/ProjectsSection';
 import { myProjectsCards } from '@/utils/data/ProjectsCards';
 
@@ -15,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <ProjectsSection projects={myProjectsCards}/>
+      <ContactSection />
     </>
   )
 }

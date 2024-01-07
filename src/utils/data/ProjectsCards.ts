@@ -40,7 +40,7 @@ export const myProjectsCards: IProject[] = [
       "Designed for a straightforward and impactful experience, I chose yellow as the accent color to evoke energy and creativity. The neutral palette complements, creating a simpler and cleaner design. Built with Next.js, Tailwind CSS, and Framer Motion, my intention was to provide a visually appealing and seamless journey through my projects in a space that prioritizes simplicity, aesthetics, and a user-friendly experience.",
     ],
     githubLink: "#",
-    techs: ["react", "typescript", "tailwind"],
+    techs: ["next", "react", "typescript", "tailwind"],
     color: "#FACC15",
   },
 ];
