@@ -8,8 +8,8 @@ export const myProjectsCardsEn: IProject[] = [
       "I chose to focus on mobile design and minimalism for this project for several reasons. I recognized that the majority of students primarily use smartphones to access information. By centering the design around mobile devices, I aimed to ensure accessibility and convenience for students.",
     ],
     techs: ["next", "node", "nest", "postgres", "typescript"],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://guiadocampus.vercel.app/",
+    githubLink: "https://github.com/Vitor-Silva27/guiadocampus-frontend",
     color: "#3F91F0",
   },
   {
@@ -39,7 +39,7 @@ export const myProjectsCardsEn: IProject[] = [
     description: [
       "Designed for a straightforward and impactful experience, I chose yellow as the accent color to evoke energy and creativity. The neutral palette complements, creating a simpler and cleaner design. Built with Next.js, Tailwind CSS, and Framer Motion, my intention was to provide a visually appealing and seamless journey through my projects in a space that prioritizes simplicity, aesthetics, and a user-friendly experience.",
     ],
-    githubLink: "#",
+    githubLink: "https://github.com/Vitor-Silva27/personal-portfolio",
     techs: ["next", "react", "typescript", "tailwind"],
     color: "#FACC15",
   },
@@ -55,8 +55,8 @@ export const myProjectsCardsPt: IProject[] = [
       "Optei por focar no design mobile e minimalismo para este projeto por diversas razões. Reconheci que a maioria dos estudantes utiliza principalmente smartphones para acessar informações. Ao centralizar o design em dispositivos móveis, busquei garantir acessibilidade e conveniência para os estudantes.",
     ],
     techs: ["next", "node", "nest", "postgres", "typescript"],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://guiadocampus.vercel.app/",
+    githubLink: "https://github.com/Vitor-Silva27/guiadocampus-frontend",
     color: "#3F91F0",
   },
   {
@@ -86,7 +86,7 @@ export const myProjectsCardsPt: IProject[] = [
     description: [
       "Projetado para uma experiência direta e impactante, escolhi o amarelo como cor de destaque para evocar energia e criatividade. A paleta neutra complementa, criando um design mais simples e limpo. Construído com Next.js, Tailwind CSS e Framer Motion, minha intenção foi proporcionar uma jornada visualmente atraente e fluida através dos meus projetos em um ambiente que prioriza simplicidade, estética e uma experiência amigável ao usuário.",
     ],
-    githubLink: "#",
+    githubLink: "https://github.com/Vitor-Silva27/personal-portfolio",
     techs: ["next", "react", "typescript", "tailwind"],
     color: "#FACC15",
   },

@@ -6,11 +6,12 @@ interface CtaProps {
     text: string;
     icon?: string;
     secondary?: boolean;
+    target?: string;
 }
 
-export const Cta = ({link, text, secondary}: CtaProps) => {
+export const Cta = ({link, text, secondary, target = ""}: CtaProps) => {
   return (
-    <Link href={link} className="w-full min-w-72">
+    <Link href={link} target={target} className="w-full min-w-72">
     <motion.div
       className={"flex justify-center items-center gap-12 p-4 h-20 hover:bg-yellow-400 hover:font-bold " + (secondary ? "bg-transparent border-2 border-zinc-950 text-zinc-950 hover:border-none" : "bg-zinc-950 text-zinc-100 hover:text-zinc-950")}
       whileHover={{ scale: 1.1 }}

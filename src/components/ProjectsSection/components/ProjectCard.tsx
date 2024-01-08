@@ -32,8 +32,8 @@ export const ProjectCard = ({project, ctaText, secondaryText}: IProjectCardProps
             ))}
           </ul>
           <div className="flex flex-col gap-8 mt-16 lg:w-3/4 lg:flex-row">
-            {project.liveLink && <Cta text={ctaText} link={"#"} />}
-            {project.githubLink && <Cta text={secondaryText} link={project.githubLink} secondary/>}
+            {project.liveLink && <Cta text={ctaText} link={project.liveLink} target="_blank"/>}
+            {project.githubLink && <Cta text={secondaryText} link={project.githubLink} target="_blank" secondary/>}
             {!project.githubLink && !project.liveLink && <p className="text-zinc-600 text-base sm:text-xl">{project.reason}</p>}
           </div>
       </div>
