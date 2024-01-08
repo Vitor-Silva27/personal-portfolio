@@ -24,9 +24,9 @@ export const HeroSection = ({ cta, description, title, welcome }: IHeroSectionPr
       icon: "/linkedin.svg",
     },
     {
-      name: "Resume",
-      link: "#",
-      icon: "/resume.svg",
+      name: "Whatsapp",
+      link: "https://web.whatsapp.com/send?phone=5586988629841",
+      icon: "/whatsapp.svg",
     },
   ];
   return (

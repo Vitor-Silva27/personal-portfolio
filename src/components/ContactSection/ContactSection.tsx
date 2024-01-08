@@ -31,6 +31,11 @@ export const ContactSection = ({confirmation, cta, placeholderMessage, placehold
 
   const s = [
     {
+      name: "Whatsapp",
+      link: "https://web.whatsapp.com/send?phone=5586988629841",
+      icon: "/whatsapp.svg",
+    },
+    {
       name: "Github",
       link: "https://github.com/Vitor-Silva27",
       icon: "/github.svg"
@@ -41,10 +46,10 @@ export const ContactSection = ({confirmation, cta, placeholderMessage, placehold
       icon: "/linkedin.svg"
     },
     {
-      name: "EMail",
+      name: "Email",
       link: "mailto:ps.joaovitor27@gmail.com",
       icon: "/mail.svg"
-    }
+    },
   ]
 
   return (
