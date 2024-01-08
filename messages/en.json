@@ -1,0 +1,39 @@
+{
+    "Index": {
+        "hero":{
+            "welcome": "Hello, welcome to my portfolio, i am Vitor",
+            "title": "Decoding problems, encoding solutions.",
+            "description": "I am a Full stack developer. Currently working with javascript, using mostly React.js and Node.js.",
+            "cta": "Get in touch"
+        },
+        "about": {
+            "title": "about me",
+            "p1": "My name is Vitor Silva. I am a programmer based in Brazil. I have been studying programming since 2020, and I am passionate about development. I always strive to give my best in any work I do.",
+            "p2": "I am a quick learner, highly curious, and dedicated. ",
+            "s": "My goal is to develop software solutions that improve and simplify people's lives, and have a great impact in society."
+        },
+        "skills": {
+            "title": "skills"
+        },
+        "projects": {
+            "title": "projects",
+            "ctaText": "View Live Project",
+            "secondaryText": "View Source Code"
+        },
+        "contact": {
+            "sectionTitle": "contact",
+            "title1": "Did you Like my portfolio?",
+            "title2": "Get in touch!",
+            "placeholderName": "Name",
+            "placeholderMessage": "Type your message",
+            "confirmation": "Your message was sent successfully, Thank you!",
+            "cta": "Send message"
+        },
+        "nav": {
+            "about": "About Me",
+            "projects": "Projects",
+            "contact": "Contact",
+            "lang": "pt"
+        }
+    }
+}

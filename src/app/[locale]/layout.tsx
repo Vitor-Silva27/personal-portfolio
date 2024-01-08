@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Raleway, Bebas_Neue } from "next/font/google";
-import './globals.css'
+import '../globals.css'
 
 const bebas = Bebas_Neue({
   weight: "400",
@@ -22,11 +22,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: {locale}
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
+  params: {locale: string}
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang={locale} className="scroll-smooth">
       <body className={`${bebas.variable} ${raleway.variable} bg-slate-100 text-zinc-950 font-body relative overflow-x-hidden`}>{children}</body>
     </html>
   )

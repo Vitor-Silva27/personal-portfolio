@@ -6,9 +6,11 @@ import { motion, stagger } from "framer-motion"
 
 interface IProjectCardProps {
   project: IProject;
+  ctaText: string;
+  secondaryText: string;
 }
 
-export const ProjectCard = ({project}: IProjectCardProps) => {
+export const ProjectCard = ({project, ctaText, secondaryText}: IProjectCardProps) => {
 
 
   return (
@@ -30,9 +32,9 @@ export const ProjectCard = ({project}: IProjectCardProps) => {
             ))}
           </ul>
           <div className="flex flex-col gap-8 mt-16 lg:w-3/4 lg:flex-row">
-            {project.liveLink && <Cta text="View Live Project" link={"#"} />}
-            {project.githubLink && <Cta text="View Source Code" link={project.githubLink} secondary/>}
-            {!project.githubLink && !project.liveLink && <p className="text-zinc-600 text-base sm:text-xl">Links are not available! {project.reason}</p>}
+            {project.liveLink && <Cta text={ctaText} link={"#"} />}
+            {project.githubLink && <Cta text={secondaryText} link={project.githubLink} secondary/>}
+            {!project.githubLink && !project.liveLink && <p className="text-zinc-600 text-base sm:text-xl">{project.reason}</p>}
           </div>
       </div>
 

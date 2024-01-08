@@ -2,14 +2,14 @@
 
 import {useScroll, useTransform, motion} from 'framer-motion';
 
-export const SkillsSection = () => {
+export const SkillsSection = ({title}: {title: string}) => {
   const {scrollYProgress} = useScroll();
   const x1 = useTransform(scrollYProgress, [0, 1], [0, 800]);
   const x2 = useTransform(scrollYProgress, [0, 1], [0, -800]);
 
   return (
     <section id='skills' className='flex flex-col items-center font-display relative py-32 sm:py-96 overflow-x-hidden'>
-      <h2 className="text-9xl md:text-10xl absolute text-slate-200 top-0 -z-20">Skills</h2>
+      <h2 className="text-9xl md:text-10xl absolute text-slate-200 top-0 -z-20">{title}</h2>
       <motion.ul 
         className="flex gap-4 text-5xl 2xl:text-7xl text-nowrap  relative -right-1/4"
         style={{x: x2}}
