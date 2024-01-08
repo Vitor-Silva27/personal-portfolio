@@ -1,8 +1,8 @@
 {
     "Index": {
         "hero":{
-            "welcome": "Hello, welcome to my portfolio, i am Vitor",
-            "title": "Decoding problems, encoding solutions.",
+            "welcome": "Hello, welcome to my portfolio, i am Vitor.",
+            "title": "Decoding problems, coding solutions.",
             "description": "I am a Full stack developer. Currently working with javascript, using mostly React.js and Node.js.",
             "cta": "Get in touch"
         },

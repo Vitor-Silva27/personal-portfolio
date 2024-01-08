@@ -1,7 +1,7 @@
 {
     "Index": {
         "hero":{
-            "welcome": "Bem vindo(a) ao meu portfolio, sou o Vitor",
+            "welcome": "Bem vindo(a) ao meu portfolio, sou o Vitor.",
             "title": "Decodificando problemas, codificando soluções.",
             "description": "Sou um desenvolvedor Full stack. Atualmente trabalhando com javascript, usando principalmente React.js e Node.js.",
             "cta": "Entre em contato"
