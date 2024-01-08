@@ -17,7 +17,7 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: 'Vitor Silva',
-  description: 'Vitor Silva - A Full Stack Developer from Brazil',
+  description: 'Vitor Silva - I am a Full stack developer. Currently working with javascript, using mostly React.js and Node.js',
 }
 
 export default function RootLayout({
