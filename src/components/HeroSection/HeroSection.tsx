@@ -30,7 +30,7 @@ export const HeroSection = ({ cta, description, title, welcome }: IHeroSectionPr
     },
   ];
   return (
-    <section className="flex flex-col justify-center w-full sm:items-center px-8 py-20 md:py-32">
+    <section className="flex flex-col justify-center w-full sm:items-center px-8 py-10 xsm:py-20 md:py-32">
       <motion.div
         initial={{ scaleY: 1 }}
         animate={{ scaleY: 0, transition: { duration: 0.5, ease: "circOut" } }}

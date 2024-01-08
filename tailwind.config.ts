@@ -16,6 +16,7 @@ const config: Config = {
         "10xl": "18rem",
       },
       screens: {
+        xsm: "376px",
         sxl: "1338px",
         "3xl": "1630px",
       },
