@@ -45,7 +45,7 @@ export const HeaderNav = ({about, contact,projects, lang}: IHeaderNavProps) => {
         </button>
         <nav>
           <motion.ul 
-            className={"sm:flex gap-10 list-none font-display sm:text-xl tracking-widest text-zinc-600 sm:items-center " + (mobileNavOpen ? "flex flex-col fixed top-0 right-0 bottom-0 left-0 bg-slate-100 z-50 p-8 text-3xl h-screen pt-28" : " hidden")}
+            className={"sm:flex gap-10 list-none font-display sm:text-xl tracking-widest text-zinc-600 sm:items-center " + (mobileNavOpen ? "flex flex-col fixed top-0 right-0 bottom-0 left-0 bg-slate-100 z-50 p-8 text-3xl pt-28" : " hidden")}
             >
               <Link onClick={handleButtonClick} className="transition-all hover:-translate-y-1 hover:text-zinc-950" href="#about"><motion.li initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} >{about}</motion.li></Link>
               <Link onClick={handleButtonClick} className="transition-all hover:-translate-y-1 hover:text-zinc-950" href="#projects"><motion.li initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.25 }}>{projects}</motion.li></Link>
