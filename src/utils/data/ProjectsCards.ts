@@ -1,7 +1,7 @@
 export const myProjectsCardsEn: IProject[] = [
   {
     name: "Campus Guide",
-    roles: ["Ui design", "Full stack"],
+    roles: ["Ui design", "Full Stack"],
     image: "/guiadocampus.png",
     description: [
       "At the college where I study, internal communication faced challenges. Therefore, I developed a project using technology to enhance access to information about rooms and departments. The goal was to make communication more efficient and accessible, especially for students.",
@@ -14,7 +14,7 @@ export const myProjectsCardsEn: IProject[] = [
   },
   {
     name: "Restaurant Manager",
-    roles: ["Ui design", "Full stack"],
+    roles: ["Ui design", "Full Stack"],
     image: "/quiosque.png",
     description: [
       "I developed a management system for a local restaurant, aiming to enhance its expense control and efficient management of tables and orders. The backend was built using Node.js with TypeScript and express, ensuring a solid and scalable foundation. For the user interface, I employed React, also utilizing TypeScript and styled components.",
@@ -81,12 +81,24 @@ export const myProjectsCardsEn: IProject[] = [
     color: "#F2B602",
     backward: true,
   },
+
+  {
+    name: "Kraft",
+    roles: ["Ui design, Full Stack"],
+    image: "/kraft.png",
+    description: [
+      "This project is still under development and aims to assist beginner programmers in their programming practice. It is essentially a repository of project ideas designed to be easy, intuitive, and very complete.",
+    ],
+    reason: "Still under development!",
+    techs: ["react", "typescript", "css", "node", "express"],
+    color: "#9747FF",
+  },
 ];
 
 export const myProjectsCardsPt: IProject[] = [
   {
     name: "Guia do campus",
-    roles: ["Ui design", "Full stack"],
+    roles: ["Ui design", "Full Stack"],
     image: "/guiadocampus.png",
     description: [
       "Na faculdade onde estudo, a comunicação interna enfrentava desafios. Por isso, desenvolvi um projeto utilizando tecnologia para aprimorar o acesso a informações sobre salas e departamentos. O objetivo era tornar a comunicação mais eficiente e acessível, especialmente para os estudantes.",
@@ -99,7 +111,7 @@ export const myProjectsCardsPt: IProject[] = [
   },
   {
     name: "Gerenciador de Restaurante",
-    roles: ["Ui design", "Full stack"],
+    roles: ["Ui design", "Full Stack"],
     image: "/quiosque.png",
     description: [
       "Desenvolvi um sistema de gestão para um restaurante local, com o objetivo de aprimorar o controle de despesas e a administração de mesas e pedidos. A parte de backend foi construída utilizando Node.js com TypeScript e Express, assegurando uma base sólida e escalável. Para a interface do usuário, utilizei React, também empregando TypeScript e além de styled components.",
@@ -165,5 +177,16 @@ export const myProjectsCardsPt: IProject[] = [
     techs: ["react", "javascript", "css"],
     color: "#F2B602",
     backward: true,
+  },
+  {
+    name: "Kraft",
+    roles: ["Ui design, Full Stack"],
+    image: "/kraft.png",
+    description: [
+      "Este projeto ainda está em desenvolvimento e tem como objetivo auxiliar programadores iniciantes no treinamento de programação. Trata-se essencialmente de um repositório de ideias para projetos, visando ser fácil, intuitivo e bem completo.",
+    ],
+    reason: "Projeto em desenvolvimento!",
+    techs: ["react", "typescript", "css", "node", "express"],
+    color: "#9747FF",
   },
 ];
