@@ -43,6 +43,44 @@ export const myProjectsCardsEn: IProject[] = [
     techs: ["next", "react", "typescript", "tailwind"],
     color: "#FACC15",
   },
+  {
+    name: "Student's space",
+    roles: ["Ui design", "Front End"],
+    image: "/sis-aluno.png",
+    description: [
+      "Resolution of a challenge from my college: this is a responsive website created with HTML, CSS, and JavaScript to display a student's personal information and performance in four subjects. It features a simple and pleasant interface, adapting to different devices",
+    ],
+    liveLink:
+      "https://primeira-bimestral.netlify.app/programacao-para-internet/",
+    githubLink: "https://github.com/Vitor-Silva27/prog-web-prova-1",
+    techs: ["html", "css", "javascript"],
+    color: "#13B2DA",
+    backward: true,
+  },
+  {
+    name: "Easy travel",
+    roles: ["Back end"],
+    image: "/easytravel.png",
+    description: [
+      "This is a simple travel agency API developed using Express, Node.js, PostgreSQL, Prisma, and TypeScript. It provides fundamental CRUD operations for travel packages, including sales functionality, with authentication, access control, and a layered architecture for enhanced organization and scalability.",
+    ],
+    githubLink: "https://github.com/Vitor-Silva27/easy-travel-server",
+    techs: ["node", "express", "typescript", "postgres"],
+    color: "#020917",
+  },
+  {
+    name: "Dogs",
+    roles: ["Front end"],
+    image: "/dogs.png",
+    description: [
+      "This project was developed during a course, it's basically a instagram clone, but for dogs. In this project i've learned a lot of things like: how to create and use react components, react-router, context api, Hooks, and more.",
+    ],
+    liveLink: "https://dogs-social-media.netlify.app/",
+    githubLink: "https://github.com/Vitor-Silva27/Dogs",
+    techs: ["react", "javascript", "css"],
+    color: "#F2B602",
+    backward: true,
+  },
 ];
 
 export const myProjectsCardsPt: IProject[] = [
@@ -89,5 +127,43 @@ export const myProjectsCardsPt: IProject[] = [
     githubLink: "https://github.com/Vitor-Silva27/personal-portfolio",
     techs: ["next", "react", "typescript", "tailwind"],
     color: "#FACC15",
+  },
+  {
+    name: "Sistema do aluno",
+    roles: ["Ui design", "Front End"],
+    image: "/sis-aluno.png",
+    description: [
+      "Resolução de um desafio da minha faculdade: este é um site responsivo criado com HTML, CSS e JavaScript para exibir os dados pessoais de um aluno e seu desempenho em quatro disciplinas. Ele apresenta uma interface simples e agradável, adaptando-se a diferentes dispositivos.",
+    ],
+    liveLink:
+      "https://primeira-bimestral.netlify.app/programacao-para-internet/",
+    githubLink: "https://github.com/Vitor-Silva27/prog-web-prova-1",
+    techs: ["html", "css", "javascript"],
+    color: "#13B2DA",
+    backward: true,
+  },
+  {
+    name: "Easy travel",
+    roles: ["Back end"],
+    image: "/easytravel.png",
+    description: [
+      "Uma API simples de agência de viagens, desenvolvida com Express, Node.js, PostgreSQL, Prisma e TypeScript. Oferece funcionalidades básicas de CRUD e venda de pacotes de viagem, com autenticação, controle de acesso e separação de camadas.",
+    ],
+    githubLink: "https://github.com/Vitor-Silva27/easy-travel-server",
+    techs: ["node", "express", "typescript", "postgres"],
+    color: "#020917",
+  },
+  {
+    name: "Dogs",
+    roles: ["Front end"],
+    image: "/dogs.png",
+    description: [
+      "Este projeto foi desenvolvido durante um curso, sendo basicamente um clone do Instagram, mas voltado para cães. Nele, aprendi muitas coisas, como: como criar e utilizar componentes React, React Router, Context API, Hooks, entre outras habilidades.",
+    ],
+    liveLink: "https://dogs-social-media.netlify.app/",
+    githubLink: "https://github.com/Vitor-Silva27/Dogs",
+    techs: ["react", "javascript", "css"],
+    color: "#F2B602",
+    backward: true,
   },
 ];
