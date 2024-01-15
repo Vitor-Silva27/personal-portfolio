@@ -84,7 +84,7 @@ export const myProjectsCardsEn: IProject[] = [
 
   {
     name: "Kraft",
-    roles: ["Ui design, Full Stack"],
+    roles: ["Ui design", "Full Stack"],
     image: "/kraft.png",
     description: [
       "This project is still under development and aims to assist beginner programmers in their programming practice. It is essentially a repository of project ideas designed to be easy, intuitive, and very complete.",
@@ -180,7 +180,7 @@ export const myProjectsCardsPt: IProject[] = [
   },
   {
     name: "Kraft",
-    roles: ["Ui design, Full Stack"],
+    roles: ["Ui design", "Full Stack"],
     image: "/kraft.png",
     description: [
       "Este projeto ainda está em desenvolvimento e tem como objetivo auxiliar programadores iniciantes no treinamento de programação. Trata-se essencialmente de um repositório de ideias para projetos, visando ser fácil, intuitivo e bem completo.",
